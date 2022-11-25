@@ -1,0 +1,467 @@
+---
+title: "Thematic Cartography"
+author: "Timothée Giraud"
+subtitle: "The Cartographical Language"
+date: today
+date-format: "MMM D, YYYY"
+format: 
+  revealjs:
+    cache: true
+    echo: true
+    #theme: moon
+    #scrollable: true
+    #smaller: true3
+    logo: img/logocnrs.svg 
+    auto-stretch: false
+    preview-links: true
+---
+
+# Cartography
+
+## Cartography
+
+Cartography is the discipline that aims at creating maps.   
+
+Cartography has **scientific**, **technical** and **artistic** foundations.  
+
+
+## Cartography
+
+### Scientific foundations
+
+* **Mathematics** are one pillar of cartography: geodesic systems, coordinate reference systems are fundamental tools for creating maps.
+
+* The map preparation (data management and transformations) is a process that needs **precision** and **accuracy**. 
+
+* The mapping process relies on a set of **rules from the semiology of graphics** and a **strong methodological tooling**.
+
+## Cartography
+
+### Scientific foundations
+
+:::: {.columns}
+
+::: {.column width="60%"}
+The map itself is the subject of numerous researches: communicational efficiency, animated cartography, optimization of flows mapping...
+:::
+
+::: {.column width="40%"}
+![](img/lamberty.png){width=400px}
+:::
+
+::::
+
+
+
+
+
+
+
+## Cartography
+
+### Technical foundations
+:::: {.columns}
+
+::: {.column width="40%"}
+Cartography is based on the acquisition, preparation and processing of data. It requires the **use of specialized software products** (spreadsheets, GIS, mapping software, spatial databases...).
+:::
+
+::: {.column width="60%"}
+![](img/technique_carto.png)
+:::
+
+::::
+
+
+
+
+## Cartography
+### Artistic foundations
+
+The map creation process implies most of the time a search for **aestheticism**, a **design** and a certain **viewpoint** on spatial phenomena.
+
+As for any communication object, the graphic design of a map has an impact on the transmission of the message.
+
+## Cartography
+### Artistic foundations
+:::: {.columns}
+::: {.column width="40%"}
+
+![Frontière États-Unis / Mexique : une fracture humaine et économique (Source : [Rekacewicz, 2009](https://www.monde-diplomatique.fr/cartes/maquiladoras))
+](img/art.png)
+:::
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="40%"}
+![War Business (Source : [Lambert, Zainin, Mad Maps, 2019](http://www.cartolycee.net/spip.php?article152))](img/mad_maps.png)
+
+:::
+
+::::
+
+
+
+
+## What are the maps used for?
+
+### Performative maps (activism, propaganda...)
+:::: {.columns}
+::: {.column width="50%"}
+![Region of Rat-Bitten Babies (Source : Bunge W., Bordessa R., 1975, the Canadian Alternative)](img/Bunge_3.png)
+:::
+::: {.column width="50%"}
+![Geography of Revolution (Source : Bunge W., 1971)  [more](https://jacket2.org/commentary/william-bunge-dgei-radical-cartography)](img/Bunge_1.png)
+:::
+::::
+
+
+## What are the maps used for?
+### Analysis (reveal phenomena and spatial organisation)
+
+![Adapted from John Snow's cholera map of 1854](img/snow_GIS.gif){width="450px"}
+
+
+
+## What are the maps used for?
+### A planning tool 
+![VGI map of dangerous spots while biking (Source : [Fédération des Usagers de la Bicyclette, 2019)](https://carto.parlons-velo.fr/)](img/points_noirs1.PNG){width=600px}
+
+
+## What are the maps used for?
+### Visualizing its own territory, navigating
+
+![(Google) Maps snapshot](img/gps.jpg){width=200px}
+
+
+
+## Take a step back {.smaller}
+
+The context of production matters.  
+To better understand the issues of legibility and transmission of the cartographic message ask yourself:
+
+* What is my **role** as I produce a map?
+* What is the **purpose** of my map, how should people react to it?
+* For which **audience** is it intended? What do they need to know to understand it?
+
+This directly influences the **geographical bounding box** and the **projection** used, the **generalization** of the map background, the **graphic choices** (fonts, colors, format), the **vocabulary** used. 
+
+## Take a step back
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uicwYbendUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## What about the thematic map
+
+A widely appreciated tool for **analysis**, **decision support** and **communication**.
+
+There is a need to identify the graphic means that allow to go from a "simple" **spatialized statistical information** to an **efficient graphical representation**. 
+
+
+## M A P S ! {.smaller}
+
+### M for message
+What message is to be delivered. The message should be coherent, clear, intelligible, and as simple as possible so it can be easily integrated.  
+
+### A for artistic
+A map needs to be attractive. It should be aesthetic and well designed.     
+
+### P for people
+The map should be designed specifically for a single purpose. The mapmaker needs to know whom he/she is addressing.  
+
+### S for scientific
+The map is a professional tool of the geographer. It is a scientific object complying with strict and precise rules, it needs to be as much reproducible as possible and thus open to scientific discussion/dispute.  
+
+
+
+
+
+# The Cartographical Language
+
+## The Cartographical Language
+
+<br><br>  
+
+### 1. Use the rules from the semiology of graphics  
+<br><br>  
+
+### 2. Use the cartographic codes and conventions  
+
+
+
+## Semiology of graphics
+
+Jacques Bertin has designed a set of rules for the graphic transcription of information.   
+
+- **3 types of relationship** within datasets. Maps are made to visualize these relationships.  
+
+- **6 visual variables** to visually transcribe these relationships.
+
+
+
+## 3 types of relationship
+
+
+- **Differentiation**: express relationships of equivalence or difference, with no hierarchy or classification.
+
+- **Order**: express a hierarchy across the data.
+
+- **Proportionnality**: express raw quantities.
+
+
+## 3 types of relationship
+
+![](img/Figure-p2i1.png)
+
+
+## Visual variables
+
+A **visual variable** refers to the way in which graphic figures are made to vary so as to visually transcribe the variations of statistical data.   
+
+- size
+- value
+- color
+- shape
+- orientation
+- texture
+
+## Visual variables
+
+![](img/Figure-p2i2.png){width=80%}
+
+## Localization and positioning
+
+**Localization** refers to the position of a place on Earth's surface. It is a geographical notion.
+
+
+**Positioning** refers to the graphic transcription of geographical objects on a map using **points**, **lines**, or **polygons**. Is is a cartographic concept.
+
+
+
+
+
+
+## Absolute quantitative data
+**ONLY one** visual variable can be used to show absolute quantitative data: the **size**.
+
+![](img/Figure-5.02.png)
+
+It is the only visulal variable that can express **differences**, **hierarchy** and above all **proportionality**. 
+
+
+## Absolute quantitative data
+![](img/Figure-5.01.png)
+
+
+## Absolute quantitative data
+
+![[Bill Rankin, 2007](http://www.radicalcartography.net/)](img/nuclear_full.png){width=600px}
+
+
+## Absolute quantitative data
+
+![Emigrants from around the globe (Minard, 1858)](img/taille_line.png){width=600px}
+
+## Absolute quantitative data
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![Interegional Trade. Source: [Atlas de l'espace mondial contemporain](https://espace-mondial-atlas.sciencespo.fr/fr/)](img/commerce.jpeg){width=450}
+
+
+:::
+::: {.column width="50%"}
+
+![Home to work flows. Source: [Cartothèque de la région Hauts-de-France, 2021](https://cartes.hautsdefrance.fr/)](img/navette.png){width=350}
+
+:::
+::::
+
+## Absolute quantitative data
+
+![[Bill Rankin, 2013](http://www.radicalcartography.net/index.html?france)](img/dot_map_2.png){width=500px}
+
+## Absolute quantitative data
+
+![Paull, J. et Hennig, B. (2016). Atlas of Organics: Four maps of the world of organic agriculture. Journal of Organics, 3(1), 25‑32. ](img/cartogram.jpg)
+
+## Relative quantitative data
+(**and qualitative ordinal data**)
+
+![](img/Figure-4.01.png){width=55%}
+
+## Relative quantitative data
+![](img/Figure-4.02.png){width=55%}
+![](img/Figure-4.03.png){width=55%}
+![](img/Figure-4.04.png){width=55%}
+
+## Relative quantitative data
+
+**The choropleth map**: A cartographic representation formed of ordered colored area on some sort of grid (i.e. admin division).   
+Use with relative quantitative data and ordered qualitative data. 
+
+
+## Before the choropleth map...
+
+* The statistical information in your table cannot always be mapped right away.   
+The information may need to be converted, collated or reduced to render it intelligible.    
+* Relative quantitative data (rate, indices, etc.) *always* need to be synthesized, subdivided into class of values.   
+    This procedure is often called **discretization**.
+
+## Discretization
+
+1. Summarize the statistical series 
+    - Position parameters (mean, median, mode...)
+    - Dispersion parameters (standard deviation, interquartile interval...)
+2. Analyse the distribution
+    - Histogram, box plot, distribution diagram
+    - ...
+3. Determine class intervals
+    - Several methods
+
+## Discretization
+1. Classes must be homogeneous and distinct
+2. Number of classes must be smaller than the number of observations
+3. **Essential characteristics of the distribution should be preserved** (extent, dispersion, shape of the distribution)
+4. Use rounded boundary values, or use relevant values. Boundary values should be easy to read an memorize 
+
+## Discretization
+
+![](img/Figure-2.08.png)
+
+
+## Discretization
+
+![Observed thresholds](img/Figure-2.09.png)
+
+![Equal amplitude](img/Figure-2.10.png)
+
+## Discretization
+
+![Equal numbers](img/Figure-2.11.png)
+
+![Standardized](img/Figure-2.12.png)
+
+## Discretization
+
+![Geometric progression](img/Figure-2.13.png)
+
+
+## Discretization
+
+![](img/Figure-2.14.png){width=500px}
+
+## Relative quantitative data
+![Popular instruction in France (Source : Dupin, 1826)](img/dupin.png){width=350px}
+
+
+## Relative quantitative data
+
+![Source : [USGS, 2013](https://www.usgs.gov/ecosystems/lcsp/fire-danger-forecast/legacy-fire-danger-forecast-products)](img/quanti_rel_surf.jpg)
+
+
+## Relative quantitative data
+
+![[New York Times, 2016](https://www.nytimes.com/interactive/2016/06/24/world/europe/how-britain-voted-brexit-referendum.html)](img/brexit.jpg){width=500px}
+
+## Relative quantitative data
+
+![Property prices](img/transac_montreuil.png){width=750px}
+
+## Relative quantitative data
+
+![High Speed rail in Europe, 2016 (Source : [Wikipedia](https://en.wikipedia.org/wiki/High-speed_rail_in_Europe))](img/quanti_rel_3.png){width=650px}
+
+
+
+## Qualitative ordinal data
+![](img/conflict.png){width=400px}
+
+
+
+
+## Qualitative nominative data
+![](img/Figure-3.01.png)
+
+
+
+## Qualitative nominative data
+![](img/Figure-3.02.png)
+![](img/Figure-3.10.png)
+
+
+
+## Qualitative nominative data
+
+![Socio-professional status of property buyers](img/csp_ac_montreuil.png){width=600px}
+
+## Qualitative nominative data
+
+![](img/symbol_map.jpg){width=500px}
+
+## Qualitative nominative data
+
+![How Hollywood destroyed America (Source : [theconcourse.deadspin.com, 2014](https://deadspin.com/map-how-hollywood-has-destroyed-america-1542969906))](img/carte_symbol.gif)
+
+
+
+## Qualitative nominative data
+
+![](img/quali_line_nominale.png){width=500px}
+
+
+## Qualitative nominative data
+
+![](img/quali_nom_surface.jpg)
+
+
+
+
+## To sum up and simplify
+![](img/lightsemio.png)
+
+
+
+
+
+
+## Conventions and codes
+Codes & conventions to help setting the context of the map.
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Mandatory elements: **
+
+* Title
+* Date
+* Legend
+* Source (and author)
+* Scalebar
+* North arrow  
+
+:::
+::: {.column width="50%"}
+
+![](img/title.png)
+:::
+::::
+
+
+
+
+## {background-image="img/Figure-8.03.png" background-size=contain}
+### Legends
+
+## Scale bar
+![](img/Figure-8.05.png)
+
+## General layout of the map
+![](img/f808.png){width=550px}
+
+## Cartographic composition
+![](img/Figure-8.14.png)
+
+## Tips {background-image="img/Figure-8.11.png" background-size=contain}
