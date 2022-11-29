@@ -465,3 +465,17 @@ Codes & conventions to help setting the context of the map.
 ![](img/Figure-8.14.png)
 
 ## Tips {background-image="img/Figure-8.11.png" background-size=contain}
+
+
+
+# Credits
+
+## Credits
+Most of the figures and slides are from:   
+
+* Lambert, N., & Zanin, C. (2020). **Practical Handbook of Thematic Cartography: Principles, Methods, and Applications** (1st ed.). CRC Press.  
+[https://doi.org/10.1201/9780429291968](https://doi.org/10.1201/9780429291968)  
+
+* The chapter **Cartographie thématique et règles de la sémiologie graphique** from the course *Initiation aux SIG et à la cartographie thématique* by Ronan Ysebaert, Maxime Guinepain, Nicolas Lambert, Flora Hayat and Hugues Pécout.  
+[https://github.com/rysebaert/infogeo](https://github.com/rysebaert/infogeo)
+
